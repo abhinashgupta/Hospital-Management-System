@@ -30,3 +30,12 @@ hs_err_pid*
 .settings/
 .idea/
 *.iml
+
+# Ignore sensitive configuration files
+src/main/resources/application.properties
+
+# Ignore any production-specific properties files
+application-prod.properties
+
+# Ignore other sensitive environment files
+.env
